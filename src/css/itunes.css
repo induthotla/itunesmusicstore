@@ -1,0 +1,76 @@
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+
+.banner-image {
+    width: 100%;
+    max-width: 1109px;
+    height: auto;
+}
+
+
+.searchForm {
+    padding-top:20px;
+}
+
+.searchBorder {
+    border-color: #dfdfdf !important;
+}
+
+.logo {
+    width: 150px;
+}
+
+.trackItem {
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    padding: 10px 0px 0px 10px;
+    min-height: 190px;
+}
+.marginTop-10 {
+    margin-top: 10px;
+}
+.marginBottom-10 {
+    margin-bottom: 10px;
+}
+.padding-0 {
+    padding: 0px !important;
+}
+.artistName {
+    font-size:13px;
+}
+.resultsCount {
+    margin: 15px 0px;
+    text-align: right;    
+    display: block !important;
+}
+.loadingImage {
+    text-align: center;
+}
