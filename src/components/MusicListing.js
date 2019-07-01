@@ -95,7 +95,7 @@ class MusicListing extends Component {
                             </div>
                         </form>
                     </div>
-                    {!!isLoading && <p className="loadingImage"> <img src="http://www.dikonia.com/blog/wp-content/uploads/2018/06/Ellipsis-1.gif" alt="Loading...."/></p>}
+                    {!!isLoading && <p className="loadingImage"> <img src="images/loading.gif" alt="Loading...."/></p>}
 
                     {!!musicListing.length && <div className="col-md-12">
                         <div className="row resultsCount">
