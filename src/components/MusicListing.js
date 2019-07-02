@@ -46,7 +46,7 @@ class MusicListing extends Component {
         fetch(Constants.SEARCHURL + searchParam + '&limit=25&country=IN')
             .then(response => response.json())
             .then(data => {
-                console.log(data);
+                //console.log(data);
                 this.setState(
                     {
                         isLoading: false,
